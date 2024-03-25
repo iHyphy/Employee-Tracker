@@ -1,10 +1,5 @@
 USE employees_db;
 
--- Clear existing data
-TRUNCATE TABLE employee;
-TRUNCATE TABLE role;
-TRUNCATE TABLE department;
-
 -- Insert departments
 INSERT INTO department (name) VALUES 
 ('Engineering'),
