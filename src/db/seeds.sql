@@ -1,5 +1,4 @@
--- Use your database
-USE employees.db;
+USE employees_db;
 
 -- Clear existing data
 TRUNCATE TABLE employee;
